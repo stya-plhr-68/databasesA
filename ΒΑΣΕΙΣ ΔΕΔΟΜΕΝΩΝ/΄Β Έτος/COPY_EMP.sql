@@ -1,0 +1,6 @@
+REM Create the COPY_EMP table that will hold same data as EMPLOYEES table 
+Prompt ******  Creating COPY_EMP table ....
+CREATE TABLE COPY_EMP  AS SELECT * FROM EMPLOYEES;
+COMMIT;
+REM ********************************************************************
+Prompt ******  END OF SCRIPT ....
